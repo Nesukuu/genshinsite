@@ -1,0 +1,108 @@
+/* Cima */
+body{
+    background-color:#212121;
+    color: white;
+}
+header{
+    background-color: #1a1a1a;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex
+}
+
+nav ul li{
+    margin: 0 70px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.titulo h1 {
+    font-size: 80px;
+    margin-left: 340px;
+}
+
+.space{
+    height: 20px;
+}
+li{
+    padding: 5px;
+    font-size: 18px;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.last{
+    border-radius: 5%;
+    width: 500px;
+}
+li::marker{
+    color: #b000c0;
+}
+ol li::marker{
+    color: #b000c0;
+}
+
+.titulo h1{
+    font-size: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+
+.personagens {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as cartas "quebrem" linha quando necessário */
+    gap: 20px; /* Espaçamento entre as cartas */
+    justify-content: flex-start; /* Alinhamento dos itens */
+  }
+  
+.personagem-container {
+    width: 150px;
+    height: 200px;
+    border: 1px solid #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #333;
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: white; /* Mantém o texto branco no link */
+    transition: transform 0.2s ease; /* Efeito ao passar o mouse */
+}
+  
+  .personagem-container:hover {
+    transform: scale(1.05); /* Aumenta o tamanho da carta ao passar o mouse */
+  }
+  
+  .personagem-imagem {
+    width: 100%;
+    height: 70%;
+  }
+  
+  .personagem-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .personagem-nome {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    font-size: 16px;
+    font-weight: bold;
+  }
