@@ -1,0 +1,87 @@
+/* esse é o jeito que comenta no css */ /*a maioria das coisas do css e melhor mostrar na pratica*/
+body { /* pra estilizar algo do html, escrevemos o nome da tag e abrimos uma { na frente, mas podemos mudar especificamente algo de alguma classe diferente, por exemplo, se temos dois <h1>, se vc digitar aqui h1{ e começar a digitar, vai alterar os dois h1, mas se no caso vc quiser estilizar os dois de formas diferentes, vc vai declarar uma classe ou id a cada um dos dois por exemplo <h1 class="oi">, e digitar no css .oi { e comaçar a estilizar, só que, vc tambem pode colocar a classe oi em outros itens q não são h1, qualquer um mesmo, e vai alterar todos os itens q tem essa classe, mas tambem podemos ser mais especificos, for exemplo: .oi h1 { vai estilizar só os h1 com a tag oi, agr se vc digitar .oi h1 h2 { vai estilizar todos oi h1 e h2 com tag oi no codigo */
+    font-family: Arial, sans-serif; /*definindo fonte*/
+    margin: 0;/*define o espaçamento externo, ou seja, a margem da pagina,como o valor é 0, não tem margem*/
+    padding: 0;/*ddefine o espaçamento interno,como o valor é 0, não tem*/
+    box-sizing: border-box;/*configura como o tamanho total(largura e altura) é calculado. com o a definição border-box, o padding e a borda são inclusos*/
+    background-color: #f4f4f4;/*define a cor do fundo */
+}
+/* estilo do Menu de Navegação *//**/
+header {
+    background-color: #333;/*define a cor do fundo*/
+    padding: 10px 0;/*define o espaçamento, onde o 10 é o espaçamento cima baixo, e o 0 é espaçamento esquerda direita*/
+}
+nav ul {/* aqui estamos estilizando apenas o ul, nav foi usado como diretorio pra localizar especificamente esse ul, é como uma pasta do windows. imagina c:nav/ul. é tipo isso*/
+    list-style: none;/*aq a gente ta removendo a formatação padrão da lista, listas ul são enumeradas 1,2,3,4 assim sucessiamente*/
+    margin: 0;/**/
+    padding: 0;/**/
+    text-align: center;/*centraliza o texto da lista*/
+}
+nav ul li {/* localizamos só o li*/
+    display: inline-block;/*lembra que eles tstavam listados um abaixo do outro?, aqui eles vao ser listados lado a lado*/
+    margin: 0 15px;/*adcionamos um espaçamento de esquerda e direta para cada item*/
+}
+
+nav ul li a {/*localizamos o a*/
+    color: white;/*definimos a cor dp texto*/
+    text-decoration: none;/*tiramos a formatação padrao de links, que seria sublinhado*/
+    font-size: 18px;/*define tamanho da fonte*/
+}
+
+nav ul li a:hover {/*rover é pra aplicar efeito quando passamos o mouse por cima*/
+    color: #f39c12;/*no caso o cor vai ficar laranja*/
+}
+
+main { /**/
+    padding: 20px;/*aumentamos o espaçamento do main para o resto dos outros itens*/
+    text-align: center;/*alinhamos os textos*/
+}
+
+main h1 {/*h1 da man*/
+    color: #333; /**/
+    font-size: 36px;/**/
+    margin-bottom: 10px;/*aumentando espacificamente a margem inferior do h1 da main*/
+}
+
+main p {/**/
+    font-size: 20px;/**/
+    color: #666;/**/
+}
+
+/* Estilo do Rodapé *//**/
+footer {/**/
+    background-color: #333;/**/
+    color: white;/**/
+    text-align: center;/**/
+    padding: 10px 0;/**/
+    position: absolute;/*define a posição do todape, q da pra posicionar com mais controle*/
+    width: 100%;/**/
+    bottom: 0;/*posiciona o rodapé no fundo da pagina*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+<!-- os digitos <!-> são usados para escrever comentarios, ou seja, não sao lidos pelo compilador de codigos-->
+<!DOCTYPE html> <!--pra ter o esqueleto do html é so digitar ! e apertar enter-->
+<html lang="pt-BR">
+<head> <!--Cabeça, oq aparece na barra de navegação do navegador-->
+    <meta charset="UTF-8"><!--esses dois metas charset são para deixar o html legivel e adapatado-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial - Guias de Genshin Impact</title> <!--definindo o titulo da pagina-->
+    <link rel="stylesheet" href="styles.css">
+ <!-- linkando o arquivo css ao html-->
+</head> <!-- no html, como tu ja leu ai, ele é dividido em varias tags, e quando vc abre uma tag ex: <head>, quando vc for fechar essa tag precisa usar o /.ex: <head></head> abri o head e fechei o head-->
+<body> <!--body é tudo que aparece no esqueleto do site-->
+    <header> <!--header é uma tag para fazer um cabeçado-->
+        <nav><!--nav define uma seção de navegação, onde podemos colocar menus com links pra outras paginas-->
+            <ul><!--ul abre uma lista que sera listada com * toda linha-->
+                <li><a href="">Inicio</a></li><!--li é cada item da lista, e a tag "a" serve pra linkar um link a palavra-->
+                <li><a href="menupersonagens/menupersonagens.html">Personagens</a></li><!--por exemplo, eu linko o nome personagens a pagina dos personagens atraves da tag a-->
+                <li><a href="">Artefatos</a></li>
+                <li><a href="">Armas</a></li>
+            </ul><!--fechando lista-->
+        </nav><!--fechando navegação-->
+    </header><!--fechando menu-->
+
+    <main><!--declarando a parte principal do codigo | comando "class" usada pra definir uma classe, ou id, que ajuda na hora de modificar com o css-->
+        <section class="intro-section"><!--tag section usada para organização -->
+            <h1 class="intro-title">Guias de Genshin Impact</h1><!--temos varios comandos com h, do h1 até o h6, onde são tamanhos da fonet de titulos, do h1 sendo o maior, e o h6 o menor -->
+            <p class="intro-text">Aqui tem coisa de gensghim</p><!--p é para um paragrafo, ou frase-->
+        </section><!--fechando seção-->
+    </main><!--fechando main-->
+
+    <footer><!--rodape-->
+        <p class="footer-text">&copy; 2024 Guia de Genshin. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
